@@ -30,6 +30,21 @@
 #######################
 *.svn
 
+# Eclipse generated files #
+###########################
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
 # OS generated files #
 ######################
 .DS_Store
