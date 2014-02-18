@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:minHeight="60dip" android:orientation="horizontal"
+	android:background="@drawable/listrowbackground" android:padding="15dp">
+	<TextView android:id="@+id/countyNameColumn"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"
+		android:gravity="left|center_vertical" style="@style/TitleBigText" />
+	<TextView android:id="@+id/arrowColumn" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="right|center_vertical"
+		style="@style/ArrowText" />
+</LinearLayout>

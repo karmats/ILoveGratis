@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbars="none" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/application_background">
+	<LinearLayout android:orientation="vertical"
+		android:padding="10dip" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/registerAdContactTitle"
+			style="@style/RegisterAdGroupTitle" />
+		<LinearLayout android:id="@+id/registerAdContactDetails"
+			android:orientation="vertical" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:background="@drawable/addetailsbackground">
+
+			<TextView android:text="@string/registerAdName" android:id="@+id/nameText"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@style/Label" />
+			<EditText android:id="@+id/nameInput" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:imeOptions="actionNext" />
+
+			<TextView android:text="@string/registerAdEmail" android:id="@+id/emailText"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@style/Label" />
+			<EditText android:id="@+id/emailInput" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:inputType="textEmailAddress"
+				android:imeOptions="actionNext" />
+
+			<TextView android:text="@string/registerAdPhone" android:id="@+id/phoneText"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@style/Label" />
+			<EditText android:id="@+id/phoneInput" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:inputType="phone"
+				android:imeOptions="actionDone" />
+
+			<Button android:id="@+id/placeButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/registerAdPlace"
+				android:background="@drawable/ilgbutton" style="@style/ButtonText" />
+
+		</LinearLayout>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/registerAdAdDetailsTitle"
+			style="@style/RegisterAdGroupTitle" android:layout_marginTop="15dip" />
+		<LinearLayout android:id="@+id/registerAdAdDetails"
+			android:orientation="vertical" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:background="@drawable/addetailsbackground">
+
+			<Button android:id="@+id/categoryButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/registerAdCategory"
+				android:background="@drawable/ilgbutton" style="@style/ButtonText" />
+
+			<TextView android:text="@string/registerAdTitle" android:id="@+id/titleText"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@style/Label" />
+			<EditText android:id="@+id/titleInput" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:imeOptions="actionNext" />
+
+			<TextView android:text="@string/registerAdDescription"
+				android:id="@+id/descriptionText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" style="@style/Label" />
+			<EditText android:id="@+id/descriptionInput" android:lines="3"
+				android:gravity="top" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:imeOptions="actionDone" />
+
+		</LinearLayout>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/registerAdPictureTitle"
+			style="@style/RegisterAdGroupTitle" android:layout_marginTop="15dip" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:background="@drawable/addetailsbackground">
+			<Button android:text="@string/registerAdPicture" android:id="@+id/pictureButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/ilgbutton" style="@style/ButtonText" />
+			<ImageView android:id="@+id/registerAdPictureView"
+				android:adjustViewBounds="true" android:scaleType="centerInside"
+				android:maxHeight="150dip" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="10dip" />
+			<TextView android:id="@+id/registerAdPictureText"
+				android:text="@string/registerAdNoPictureChoosen" android:gravity="center_horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" />
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="20dip">
+			<Button android:id="@+id/continueButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/registerAdContinue"
+				android:layout_weight="1" android:background="@drawable/ilgbutton"
+				style="@style/ButtonText" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

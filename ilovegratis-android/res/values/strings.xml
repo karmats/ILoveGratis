@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="appName">iLoveGratis.se</string>
+
+	<string name="today">Idag</string>
+	<string name="yesterday">Igår</string>
+
+	<string name="adsRefresh">Hämta äldre</string>
+
+	<string name="fiveLatestTabTitle">5 senaste</string>
+	<string name="findAdsTabTitle">Hitta annonser</string>
+	<string name="registerAdTabTitle">Lägg in annons</string>
+
+	<string name="splashTitle">Sajten för dig som vill skänka något</string>
+
+	<string name="fiveLatestRefresh">Uppdatera</string>
+	<string name="fiveLatestProgress">Hämtar annonser..</string>
+
+	<string name="viewAdContactDetails">Annons detaljer</string>
+	<string name="viewAdCategory">Kategori</string>
+	<string name="viewAdUploadedBy">Annonsör</string>
+	<string name="viewAdPlace">Plats</string>
+	<string name="viewAdDate">Datum</string>
+	<string name="viewAdPhone">Telefon</string>
+	<string name="viewAdCall">Ring annonsör</string>
+	<string name="viewAdMail">Skicka mail till annonsör</string>
+	<string name="viewAdDelete">Ta bort annons</string>
+	<string name="viewAdDescription">Beskrivning</string>
+	<string name="viewAdProgress">Hämtar detaljer</string>
+
+	<string name="sendMailTitle">Skicka mail till annonsör</string>
+	<string name="sendMailEmail">Din epostadress</string>
+	<string name="sendMailName">Ditt namn</string>
+	<string name="sendMailMessage">Meddelande</string>
+	<string name="sendMailSend">Skicka mail</string>
+	<string name="sendMailProgress">Skickar mail</string>
+
+	<string name="listAdsHeader">Annonser i %s</string>
+	<string name="listAdsFooterGetMore">Hämta fler..</string>
+	<string name="listAdsFooterGettingMore">Hämtar annonser..</string>
+
+	<string name="registerAdContactTitle">Kontakt uppgifter</string>
+	<string name="registerAdAdDetailsTitle">Annons detaljer</string>
+	<string name="registerAdPictureTitle">Bild</string>
+	<string name="registerAdName">Namn</string>
+	<string name="registerAdEmail">Epost</string>
+	<string name="registerAdPhone">Telefonnummer</string>
+	<string name="registerAdPlace">Välj plats</string>
+	<string name="registerAdChooseCounty">Välj ett län</string>
+	<string name="registerAdTitle">Rubrik</string>
+	<string name="registerAdCategory">Kategori</string>
+	<string name="registerAdChooseCategory">Välj en kategori</string>
+	<string name="registerAdDescription">Beskrivning</string>
+	<string name="registerAdPicture">Bild</string>
+	<string name="registerAdPictureFile">Välj bild från fil</string>
+	<string name="registerAdTakePicture">Ta en bild</string>
+	<string name="registerAdNoPictureChoosen">Ingen bild vald</string>
+	<string name="registerAdContinue">Fortsätt</string>
+
+	<string name="confirmAdPassword">Skriv ett lösenord</string>
+	<string name="confirmAdConfirmPassword">Repetera lösenord</string>
+	<string name="confirmAdSubmit">Lägg in annons</string>
+	<string name="confirmAdProgress">Postar annons..</string>
+	<string name="confirmAdPasswordInfo">Lösenordet använder du för att ändra eller radera din annons på ilovegratis.se</string>
+	<string name="confirmAdConfirmationInfo">Genom att trycka på \"Lägg in annons\" godkänner du de <a href="http://ilovegratis.se/sida.php?id=1">regler</a> som finns på ilovegratis.se</string>
+	<string name="confirmAdTitle">Bekräfta annons</string>
+
+	<string name="aduploadsuccess">Annonsen har laddats upp!</string>
+	<string name="mailsentsuccess">Ditt mail har blivit sänt!</string>
+</resources>

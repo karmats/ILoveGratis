@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/application_background">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/sendMailTitle"
+		style="@style/ViewHeader" android:background="@drawable/viewheader" />
+	<LinearLayout android:id="@+id/sendMailTopLayout"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</LinearLayout>
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:scrollbars="none" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@color/application_background">
+		<LinearLayout android:orientation="vertical"
+			android:padding="10dip" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout android:id="@+id/sendMail"
+				android:orientation="vertical" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:background="@drawable/addetailsbackground">
+
+				<TextView android:text="@string/sendMailName" android:id="@+id/sendMailNameText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@style/Label" />
+				<EditText android:id="@+id/sendMailNameInput"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:imeOptions="actionNext" />
+
+				<TextView android:text="@string/sendMailEmail" android:id="@+id/sendMailEmailText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@style/Label" />
+				<EditText android:id="@+id/sendMailEmailInput"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+
+				<TextView android:text="@string/sendMailMessage"
+					android:id="@+id/sendMailMessageText" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/Label" />
+				<EditText android:id="@+id/sendMailMessageInput"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:lines="3" android:gravity="top" android:imeOptions="actionDone" />
+
+				<Button android:id="@+id/sendMailSendButton"
+					android:layout_marginTop="10dip" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="@string/sendMailSend"
+					android:background="@drawable/ilgbutton" style="@style/ButtonText" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

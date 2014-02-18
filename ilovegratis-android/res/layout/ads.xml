@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:background="@color/application_transparent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:id="@+id/adsTopLayout">
+		<TextView android:id="@+id/adsHeader" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/ViewHeader"
+			android:background="@drawable/viewheader" />
+	</LinearLayout>
+	<ListView android:id="@+id/ads" android:layout_width="fill_parent"
+		android:scrollbars="vertical" android:layout_height="fill_parent"
+		android:layout_below="@id/adsTopLayout" android:footerDividersEnabled="false"/>
+</RelativeLayout>

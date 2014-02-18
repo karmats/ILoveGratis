@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbars="none" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/application_background">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="@color/application_background" android:padding="10dip">
+
+		<LinearLayout android:id="@+id/confirmAdPassword"
+			android:orientation="vertical" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:background="@drawable/addetailsbackground">
+
+			<TextView android:text="@string/confirmAdPassword"
+				android:id="@+id/passwordText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" style="@style/Label" />
+			<EditText android:id="@+id/passwordInput"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:inputType="textPassword" android:imeOptions="actionNext" />
+
+			<TextView android:text="@string/confirmAdConfirmPassword"
+				android:id="@+id/confirmPasswordText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" style="@style/Label" />
+			<EditText android:id="@+id/confirmPasswordInput"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:inputType="textPassword" android:imeOptions="actionDone" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_marginTop="5dip" android:layout_marginBottom="5dip"
+				android:layout_height="wrap_content" android:text="@string/confirmAdPasswordInfo" />
+		</LinearLayout>
+
+		<Button android:id="@+id/submitAdButton" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/confirmAdSubmit"
+			android:background="@drawable/ilgbutton" style="@style/ButtonText"
+			android:layout_marginTop="20dip" />
+		<TextView android:id="@+id/confirmAdConfirmationInfo"
+			android:layout_width="fill_parent" android:textColorLink="@color/link_color"
+			android:layout_marginTop="15dip" android:layout_marginBottom="5dip"
+			android:layout_height="wrap_content" android:text="@string/confirmAdConfirmationInfo" />
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/viewAdMenuGroup">
+		<item android:id="@+id/viewAdMenuCall" android:title="@string/viewAdCall"
+			android:icon="@drawable/ic_menu_call" />
+		<item android:id="@+id/viewAdMenuSendMail" android:title="@string/viewAdMail"
+			android:icon="@drawable/ic_menu_send" />
+		<!--item android:id="@+id/viewAdMenuDelete" android:title="@string/viewAdDelete" 
+			android:icon="@drawable/ic_menu_delete" / -->
+	</group>
+</menu>

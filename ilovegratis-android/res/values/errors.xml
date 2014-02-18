@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Validation errors -->
+	<string name="nameerror">Namn måste innehålla mellan 3 och 20 bokstäver</string>
+	<string name="emailerror">Skriv en giltig email address</string>
+	<string name="passworderror">Ange ett lösenord på minst 4 tecken</string>
+	<string name="passwordnotequalerror">Lösenorden du skrivit matchar inte varandra</string>
+	<string name="countymunicipalityerror">Välj en plats</string>
+	<string name="titleerror">Rubriken måste innehålla minst 3 bokstäver</string>
+	<string name="categoryerror">Välj en kategori</string>
+	<string name="descriptionerror">Beskrivning måste innehålla minst 20 tecken</string>
+	<string name="messageerror">Meddelandet måste innehålla minst 10 tecken</string>
+
+	<string name="adnotfound">Annons hittades inte</string>
+	<string name="adsexception">Kunde inte hämta annonser</string>
+	<string name="alladscouldnotbeparsed">Alla annonser kunde inte hämtas</string>
+
+	<string name="adcouldnotbeposted">Din annons kunde inte postas: %s </string>
+	<string name="adcouldnotbepostedwitherrorcode">Din annons kunde inte postas: Felkod %s </string>
+	<string name="couldnotstartcamera">Ingen kamera funnen på telefonen</string>
+	<string name="imagetoolarge">Bilden är för stor! Bilden får högst vara %1$s, din är %2$s</string>
+
+	<string name="mailcouldnotbesent">Mailet kunde inte skickas, ditt mail är ej sänt!</string>
+
+	<string name="callcouldnotbemade">Kunde inte ringa %s </string>	
+</resources>

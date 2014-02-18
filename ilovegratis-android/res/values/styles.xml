@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TitleText">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="TitleBigText">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="TitleSuperText">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="ArrowText">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="ViewHeader">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="ViewAdTitle">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#508EC1</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="ViewAdText">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="ButtonText">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="RegisterAdGroupTitle">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_marginBottom">5dip</item>
+	</style>
+	
+	<style name="Label">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#508EC1</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="SplashLabel">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#508EC1</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>

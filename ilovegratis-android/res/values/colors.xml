@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="application_background">#D1E1EF</color>
+	<color name="application_transparent">#F5F5F5</color>
+	<color name="list_text">#508EC1</color>
+	<color name="link_color">#006699</color>
+
+	<color name="list_row_press">#F0F0F0</color>
+	<color name="list_row_selected">#AFBDC9</color>
+
+	<!-- Tab stuff -->
+	<color name="tab_selected_start">#001F37</color>
+	<color name="tab_selected_stop">#295273</color>
+	<color name="tab_start">#D1E1EF</color>
+	<color name="tab_stop">#FFFFFF</color>
+	<color name="tab_stroke">#001F37</color>
+</resources>

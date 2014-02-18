@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/splashbackground" android:orientation="vertical"
+	android:paddingLeft="10dip" android:paddingRight="10dip">
+	<ImageView android:layout_width="fill_parent" android:layout_marginTop="100dip"
+		android:layout_height="wrap_content" android:src="@drawable/logo" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" style="@style/SplashLabel"
+		android:text="@string/splashTitle" android:gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/application_background">
+	<TextView android:id="@+id/viewAdHeader" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" style="@style/ViewHeader"
+		android:background="@drawable/viewheader" />
+	<LinearLayout android:id="@+id/viewAdTopLayout"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</LinearLayout>
+	<ScrollView android:scrollbars="none" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@color/application_background">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:padding="10dip">
+			<ImageView android:id="@+id/viewAdImage"
+				android:layout_gravity="center" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:adjustViewBounds="true" />
+			<TextView android:layout_width="fill_parent"
+				android:text="@string/viewAdContactDetails" android:layout_height="wrap_content"
+				style="@style/TitleBigText" android:layout_marginTop="15dip"
+				android:layout_marginBottom="5dip" />
+			<TableLayout android:layout_width="fill_parent"
+				android:stretchColumns="1" android:layout_height="wrap_content"
+				android:background="@drawable/addetailsbackground">
+				<TableRow>
+					<TextView android:text="@string/viewAdUploadedBy" style="@style/ViewAdTitle"
+						android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					<TextView android:id="@+id/viewAdUploadedBy" style="@style/ViewAdText"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="right" />
+				</TableRow>
+
+				<TableRow>
+					<TextView android:text="@string/viewAdPlace" style="@style/ViewAdTitle"
+						android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					<TextView android:id="@+id/viewAdWhere" style="@style/ViewAdText"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="right" />
+				</TableRow>
+
+				<TableRow>
+					<TextView android:text="@string/viewAdDate" style="@style/ViewAdTitle"
+						android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					<TextView android:id="@+id/viewAdUploadedDate" style="@style/ViewAdText"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="right" />
+				</TableRow>
+
+				<TableRow android:id="@+id/viewAdPhoneRow">
+					<TextView android:text="@string/viewAdPhone" style="@style/ViewAdTitle"
+						android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					<TextView android:id="@+id/viewAdPhoneNr" style="@style/ViewAdText"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:gravity="right" />
+				</TableRow>
+			</TableLayout>
+			<TextView android:layout_width="fill_parent" android:text="@string/viewAdDescription"
+				android:layout_height="wrap_content" style="@style/TitleBigText"
+				android:layout_marginTop="15dip" android:layout_marginBottom="5dip" />
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:background="@drawable/addetailsbackground">
+				<TextView android:id="@+id/viewAdDescription" style="@style/ViewAdText"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
