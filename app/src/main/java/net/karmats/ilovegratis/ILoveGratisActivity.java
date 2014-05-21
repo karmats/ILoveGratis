@@ -16,10 +16,6 @@ import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdSize;
-import com.google.ads.AdView;
-
 public class ILoveGratisActivity extends Activity {
 
     private static final String AD_UNIT_ID = "a14d7def41ea393";
@@ -93,19 +89,19 @@ public class ILoveGratisActivity extends Activity {
     }
 
     /**
-     * Creates an {@link AdView} under the defined parent.
+     * Creates an AdView under the defined parent.
      * 
      * @param parent
      *            The parent view
      */
     protected void createAdView(ViewGroup parent) {
         // Create the adView
-        AdView adView = new AdView(this, AdSize.BANNER, AD_UNIT_ID);
-        // Add the adView to parent
-        parent.addView(adView);
-        // Initiate a generic request to load it with an ad
-        AdRequest request = new AdRequest();
-        adView.loadAd(request);
+//        AdView adView = new AdView(this, AdSize.BANNER, AD_UNIT_ID);
+//        // Add the adView to parent
+//        parent.addView(adView);
+//        // Initiate a generic request to load it with an ad
+//        AdRequest request = new AdRequest();
+//        adView.loadAd(request);
     }
 
     /**
@@ -127,7 +123,7 @@ public class ILoveGratisActivity extends Activity {
         @Override
         protected AdDto doInBackground(AdDto... params) {
             try {
-                return getAdService().getAdDetailsForAd(params[0]);
+                return params[0];//getAdService().getAdDetailsForAd(params[0]);
             } catch (Exception e) {
                 return null;
             }
